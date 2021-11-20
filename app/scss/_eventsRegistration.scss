@@ -1,0 +1,94 @@
+section#eventsRegistration{
+    padding-top: 150px;
+    background-color:#F3A917;
+    ;
+
+
+.container {
+
+    .wrapperEvents{
+    display: flex;
+
+.textLeftRegistration {
+width: 608px;
+height: 175px;
+margin-right: 132px;
+
+    h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 35px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        align-self: stretch;
+        margin: 20px 0px;
+        span{
+            color: #494343f1;
+        }
+    }
+}
+.textRightRegistration {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+    .item{
+        height: 165px;
+        margin-right: 11px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        img{
+
+        }
+        .itemBackspaseImg{
+            display: flex;
+            justify-content: center;
+
+            img{
+
+            }
+        }
+        .textBottom{
+            margin-top: 30px;
+            h3{
+
+            }
+            p{
+
+            }
+        }
+    }
+}
+}
+
+
+.registrationButton {
+    button{
+        .imageButton{
+            img{
+
+            }
+        }
+        h3{
+
+        }
+    }
+}
+.imageButton {
+}
+}
+}
