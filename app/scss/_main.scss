@@ -20,10 +20,13 @@ section#Main{
 
                 .navbarContentLeft{
                     .LogoImage{
-                        img{
-width: 88px;
-height: 64px;
+                        a{
+                            img{
+                                width: 88px;
+                                height: 64px;
+                                                        }
                         }
+                  
                     }
                 }
                 .navbarContentRight{
@@ -32,26 +35,13 @@ height: 64px;
                     width: 210px;
                     height: 30px;
                     justify-content: space-between;
-
-                    img{
-width: 30px;
-height: 30px;
-                    }
-
-                    img{
-                        width: 30px;
-                        height: 30px;
-                    }
-
-                    img{
-                        width: 30px;
-                        height: 30px;
-                    }
-
-                    img{
-                        width: 30px;
-                        height: 30px;
-                    }
+a{
+    img{
+        width: 30px;
+        height: 30px;
+                            }
+}
+ 
                 }
             }
         }
@@ -107,9 +97,11 @@ color: #FFFFFF;
                         width: 100%;
                         height: 100%;
                         border: none;
-
-                        h4{
-                            font-style: normal;
+a{
+    text-decoration: none;
+    
+    h4{
+        font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 20px;
@@ -119,7 +111,9 @@ padding: 15px 27px;
 box-sizing: border-box;
 margin: 0;
 
-                        }
+    }
+}
+                   
                     }
 
                 }
@@ -136,10 +130,12 @@ overflow: hidden;
 
 
 
-
-                        h4{
-                            margin: 0;
-                            font-style: normal;
+a{
+    text-decoration: none;
+    
+    h4{
+        margin: 0;
+        font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 20px;
@@ -150,7 +146,9 @@ box-sizing: border-box;
 
 
 
-                        }
+    }
+}
+              
                     }
                 }
             }

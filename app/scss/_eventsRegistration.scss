@@ -39,17 +39,21 @@ margin-right: 132px;
         margin: 20px 0px;
 
         span{
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 30px;
-            letter-spacing: 0.01em;
-            color: #FFFFFF;
-            flex: none;
-            order: 1;
-            align-self: stretch;
-            flex-grow: 0;
-            margin: 20px 0px;
+            a{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: 0.01em;
+                color: #FFFFFF;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 0;
+                margin: 20px 0px;
+            }
+         
         }
     }
 }

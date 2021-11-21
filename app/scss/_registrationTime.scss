@@ -31,6 +31,7 @@ line-height: 45px;
 color: #FFFFFF;
     }
 }
+
 .column__textInner_registration {
     display: flex;
 
@@ -121,9 +122,11 @@ background: #292A2F;
 border: 1px solid #F3A917;
 box-sizing: border-box;
 padding-left: 20px;
+
         img{
     padding-right: 10px;
         }
+
         p.innerColumnText_Right:hover{
             background-color: #FFFFFF;
         border: 1px solid #F3A917;
@@ -143,14 +146,19 @@ padding-left: 20px;
     margin-right: 100px;
 
     p.support{
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 35px;
-        color: #FFFFFF;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+     
+
+        a{
+            text-decoration: none;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 35px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
     }
 }
 }
