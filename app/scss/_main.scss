@@ -1,11 +1,10 @@
 section#Main{
     background-color: rgb(39, 36, 36);
-padding-bottom: 191px;
     .container{
 
         .navbar{
             display: flex;
-            height: 94px;
+            height: 110px;
             background-color: rgb(26, 24, 24);
             border-bottom: 2px solid #F3A917;
             margin-bottom: 161px;
@@ -87,7 +86,7 @@ color: #FFFFFF;
                     font-weight: normal;
                     font-size: 18px;
                     line-height: 22px;
-                    letter-spacing: 0.01em;
+                    letter-spacing: 0.10em;
                     color: #FAFAFA;
                     flex: none;
                     order: 1;

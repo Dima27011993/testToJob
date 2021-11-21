@@ -1,17 +1,17 @@
 section#eventsRegistration{
     padding-top: 150px;
     background-color:#F3A917;
-    ;
+    
 
 
 .container {
 
     .wrapperEvents{
     display: flex;
+    justify-content: space-between;
 
 .textLeftRegistration {
-width: 608px;
-height: 175px;
+width: 516px;
 margin-right: 132px;
 
     h2{
@@ -32,13 +32,28 @@ margin-right: 132px;
         line-height: 30px;
         letter-spacing: 0.01em;
         color: #000000;
+        flex: none;
+        order: 1;
         align-self: stretch;
+        flex-grow: 0;
         margin: 20px 0px;
+
         span{
-            color: #494343f1;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+            margin: 20px 0px;
         }
     }
 }
+
 .textRightRegistration {
 display: flex;
 justify-content: space-between;
@@ -68,6 +83,7 @@ align-items: center;
 
             }
             p{
+                margin-bottom: 0px;
 
             }
         }
@@ -79,8 +95,9 @@ align-items: center;
 .registrationButton {
     display: flex;
     justify-content: end;
-    margin-right: 315px;
-    margin-top: 68px;
+    margin-right: 244px;
+    margin-top: 50px;
+
 
     button{
         width: 341px;
