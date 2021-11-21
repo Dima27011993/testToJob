@@ -1,15 +1,18 @@
 section#registrationTime{
-background-color: darkgray;
+background-image: url('../images/mainImage/MainImage2.jpg');
+height: 1324px;
 
 .container {
 .textTop__registration {
     width: 654px;
     align-items: center;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    padding-top: 245px;
+    padding-top: 513px;
     margin-bottom: 2px;
     
     h3{
@@ -77,6 +80,7 @@ box-sizing: border-box;
 margin: 0;
     }
 }
+
 .itemRight_counter {
     margin: 237px 0px 39px 0px;
     margin-top: 0px;
@@ -120,10 +124,14 @@ padding-left: 20px;
         img{
     padding-right: 10px;
         }
+        p.innerColumnText_Right:hover{
+            background-color: #FFFFFF;
+        border: 1px solid #F3A917;
+        box-sizing: border-box;
+        }
 
 }
 }
-
 }
 .support__column_registration{
     display: flex;
@@ -146,4 +154,9 @@ padding-left: 20px;
     }
 }
 }
+}
+
+section#registrationTime .container .column__textInner_registration .itemRight_counter p.innerColumnText_Right:hover {
+    background-color: #fff;
+    color: #000;
 }
