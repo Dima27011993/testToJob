@@ -11,6 +11,18 @@ $(document).ready(function(){
         dots:true,
         nav:true,
         loop:true,
-        slideBy:2
+        slideBy:1
     });
   });
+
+let time = 3600;
+  const countDownEI = document.getElementById('countdown');
+  setInterval(updateCountdown, 1000);
+
+  function updateCountdown(){
+      const minutes = Math.floor(time / 60);
+      let seconds = time % 60;
+      seconds = seconds < 10 ? "0" + seconds: seconds;
+      countDownEI.innerHTML = `${minutes + ' минут'} ${seconds + ' секунд'}`;
+      time--;
+  }
