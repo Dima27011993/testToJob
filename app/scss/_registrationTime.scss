@@ -51,45 +51,53 @@ margin-left: 10px;
     margin-top: 0px;
 
     p.main__text_registration{
-        width: 72px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 35px;
-color: #000000;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-background: #F3A917;
-border: 1px solid #F3A917;
-box-sizing: border-box;
-margin: 0;
+        a{
+            width: 72px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    background: #F3A917;
+    border: 1px solid #F3A917;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+        }
+ 
 
     }
     p.innerColumnText{
-        width: 72px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 35px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-background: #292A2F;
-border: 1px solid #F3A917;
-box-sizing: border-box;
-margin: 0;
+        a{
+            width: 72px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    background: #292A2F;
+    border: 1px solid #F3A917;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+        }
+   
     }
 }
 
@@ -98,21 +106,25 @@ margin: 0;
     margin-top: 0px;
 
 p.main__text_right_registration {
-    width: 580px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 35px;
-color: #000000;
-background: #F3A917;
-border: 1px solid #F3A917;
-box-sizing: border-box;
-margin: 0;
-padding-left: 10px;
+    a{
+        width: 580px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    background: #F3A917;
+    border: 1px solid #F3A917;
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 10px;
+    text-decoration: none;
+    }
+  
 }
 
 p.innerColumnText_Right {
