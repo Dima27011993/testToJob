@@ -1,1 +1,16 @@
-
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:4,
+        margin:20,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        autoplaySpeed:1000,
+        video:true,
+        slideBy:4,
+        dots:true,
+        nav:true,
+        loop:true,
+        slideBy:2
+    });
+  });
